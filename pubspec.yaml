@@ -1,0 +1,86 @@
+name: libreville_decouverte
+
+description: "Application de découverte de Libreville."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icônes iOS
+  cupertino_icons: ^1.0.8
+
+  # Gestion d'état MVC / Provider
+  provider: ^6.1.5+1
+
+  # Firebase
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.4
+  cloud_firestore: ^6.6.0
+
+  # Connexion Google
+  google_sign_in: ^7.2.0
+
+  # Géolocalisation
+  geolocator: ^14.0.3
+
+  # Requêtes API REST
+  http: ^1.6.0
+
+  # Stockage local
+  shared_preferences: ^2.5.5
+
+  # Gestion des fichiers locaux
+  path_provider: ^2.1.5
+
+  # Images depuis Internet
+  cached_network_image: ^3.4.1
+
+  # Carte interactive Libreville / Gabon
+  flutter_map: ^8.3.1
+  latlong2: ^0.10.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Génération icône application
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+
+
+  # Images locales
+  assets:
+    - assets/images/
+
+
+# Configuration génération icône
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: assets/images/logo.png
+
+  adaptive_icon_background: "#FFFFFF"
+
+  adaptive_icon_foreground: assets/images/logo.png
+
+  remove_alpha_ios: true

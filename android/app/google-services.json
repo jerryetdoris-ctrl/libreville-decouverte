@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229456712816",
+    "project_id": "libreville-decouverte",
+    "storage_bucket": "libreville-decouverte.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229456712816:android:35a8381de8c1ed47bd10b5",
+        "android_client_info": {
+          "package_name": "com.example.libreville_decouverte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACZi9W_vCjwo012H4T_OAFPr4Z5GGKhG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
